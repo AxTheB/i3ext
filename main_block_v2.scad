@@ -14,11 +14,11 @@ drive = "both";		// 'front' = front filament drive
 //rotate([0,0,-90]) translate([-45,7,0]) idler();
 //rotate([0,0,0]) translate([45,-24,0]) idler();
 
-use <jhead.scad>;		// http://www.thingiverse.com/thing:45379
-use <mk7.scad>; 		// TrinityLabs hobbed pulley
+use <inc/jhead.scad>;		// http://www.thingiverse.com/thing:45379
+use <inc/mk7.scad>; 		// TrinityLabs hobbed pulley
 use <idler.scad>;		// idler
 use <gears.scad>;		// gears
-use <nema17.scad>;		// NEMA17 stepper motor
+use <inc/nema17.scad>;		// NEMA17 stepper motor
 
 // jhead mounting groove
 module jhead() {
